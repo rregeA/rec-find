@@ -72,7 +72,7 @@ use Net::OpenSSH;
 
 	sub find_rec_server
 	{
-				print "kodi per serverat sipe.\n";
+				
 				my $host = $options{s};
 				my $host_plote = "root@"."$host";
 				my @keyfile = ("/root/.ssh/id_rsa");
